@@ -44,7 +44,14 @@ header {
   
 }
 #company-name-nav {
-    
+    border-style: inset;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: 1px;
+    border-color: #000;
+    height: 32px;
+    padding-left: 12px;
     margin: 10px 100px 12px 10px;
 }
 
@@ -174,6 +181,21 @@ h2 {
 #used {
     margin-top: 110px;
 }
+#used button {
+    /* width: 60px;
+    height: 60px; */
+    background-color: #fff;
+    border-color: #161616 ;
+    padding: 15px;
+    margin: 0 30px 20px 0;
+}
+        /* border-style:inset;
+        background-color: #fff;
+        border-color: #161616 ;
+        padding: 20px;
+        margin: 0 30px 20px 0; */
+
+
 #used h2 {
     width: 500px;
 }
@@ -198,12 +220,20 @@ h2 {
 }
 
 .benefits-icon {
-    margin: 0 30px 20px 0;
+    border-style:inset;
+    border-width: 2px ;
+    background-color: #fff;
+    border-color: #161616 ;
+    padding: 20px;
+    margin: 0 20px 20px 0;
 }
 #benefits-id2 {
     margin-left: 40px;
 }
 
+.benefits-flex p {
+    padding-top: 15px;
+}
 
 #earn {
     margin: 150px auto 145px 565px;
@@ -303,3 +333,116 @@ color: #161616;
         color: #161616;
         
     }
+
+    footer {
+        position: relative;
+        background: #161616;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        text-underline-offset: none;
+
+    }
+#main-footer {
+   /* display: flex;
+   flex-direction:column; */
+   /* margin-left: 107px;
+    margin-top: 45px; */
+}
+.main-part-of-footer{
+    display: flex;
+   flex-direction:row;
+    
+}
+
+.footer-contact {
+   margin-top: -45px;
+   margin-left: 70px;
+    }
+
+.footer-contact hr {
+    width: 32px;
+    margin-left: 0px;
+    margin-top: 35px;
+}
+
+.footer-contact h5 {
+    margin-top: -15px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+.contact-info {
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-column {
+    /* display: flex;
+    flex-direction:column; */
+
+}
+#company-footer {
+    padding-top: 60px;
+    margin-left: 50px;
+    margin-top: 60px;
+    display: flex;
+   flex-direction:row;
+}
+.company-icon-footer {
+    position: relative;
+    top: 13px;
+    right: 2px;
+}
+
+#company-name-footer {
+    border-style: inset;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-width: 1px;
+    border-color: white;
+    height: 32px;
+    margin-top: 15px ;
+    margin-left: 12px;
+    padding-left: 12px;
+    font-style: bold;
+}
+
+#company-info-footer {
+    width: 400px;
+    margin-left: 107px;
+    margin-top: 45px;
+    margin-right: 100px;
+    margin-bottom: 130px;
+    margin: 45px 70px 80px 107px;
+    
+}
+
+#footer-underline {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 107px;
+}
+#footer-underline-text {
+    margin-right: 250px;
+    
+}
+
+.footer-underline-text {
+    margin-right: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
+
+
+

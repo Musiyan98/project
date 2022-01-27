@@ -494,9 +494,9 @@
 
                     <div id="benefits-id1">
                         <div class="benefits-flex">
-                            <span class="benefits-icon">
+                            <span >
                                 <!-- <img  Width="60px" src="img/Rectangle 9.png" alt="icon"> -->
-                                <img  id="benefits-buttom1" Width="20px" src="img/Vector 1.png" alt="icon">
+                                <button><img  id="benefits-buttom1" Width="30px" src="img/Vector 1.png" alt="icon"></button>
                             </span>
                             <p>Дополнительное место для дополнительных опций</p>
                         </div>
@@ -521,9 +521,9 @@
 
                     <div id="benefits-id2">
                         <div class="benefits-flex">
-                            <span class="benefits-icon">
+                            <span >
                                 <!-- <img Width="60px" src="img/Rectangle 9.png" alt="icon"> -->
-                                <img  id="benefits-buttom2" Width="20px" src="img/Vector 1.png" alt="icon">    
+                                <button><img  id="benefits-buttom2" Width="30px" src="img/Vector 1.png" alt="icon"></button>  
                             </span>
                             <p>Доход от аренды для мгновенного возврата вложений</p>
                         </div>
@@ -541,7 +541,7 @@
                         </div>
                         <div class="benefits-flex">
                             <span class="benefits-icon"><img Width="30px" src="img/Group 189.png" alt="icon"></span>
-                            <p>Свяжитесь с нами, чтобы получить индивидуальную смету аренды для вашего региона</p>
+                            <p>Свяжитесь с нами, чтобы получить индивидуальную <br> смету аренды для вашего региона</p>
                         </div>
                     </div>
                 </div>
@@ -626,66 +626,72 @@
     </div>
     <!--/main body-->
 
-    <footer>
-        <!--icon of company footer-->
-        <div>
-            <div>
-                <img Width="32px" src="img/Vector 2 (Stroke).png" alt="icon part 1"> <br>
-                <img Width="26px" src="img/Vector 1 (Stroke).png" alt="icon part 2">
-            </div>
-            
-            <!--border-up-->
-            <div></div>
-        </div>
+    <br>
+    <br>
+    <div><br></div>
 
-        <!-- main patr footer-->
-        <div>
-            <div>
-                <div>
-                    <span>Miratex</span>
+    <footer>
+        <div id="main-footer">
+            <!--icon of company footer-->
+            <div id="company-footer">
+                <div >
+                    <img class="company-icon-footer" Width="32px" src="img/Vector 2 (Stroke)white.png" alt="icon part 1"> <br>
+                    <img Width="26px" src="img/Vector 1 (Stroke)white.png" alt="icon part 2">
+                </div>
+                                           
+                <div id="company-name-footer">
+                    <span>Miratex</span><br>
                     <span>house</span>
                 </div>
-
-                <p>Наша команда берет на себя все: от разработки идеи и до реализации. Функциональность и традиции — это то, что 
-                    мы внедряем в каждый наш проект.</p>
             </div>
+            <!-- main patr footer-->
+            <div class="main-part-of-footer">
+                <div  id="company-info-footer">
+                    <p>Наша команда берет на себя все: от разработки идеи и до реализации. Функциональность и традиции — это то, что 
+                        мы внедряем в каждый наш проект.</p>
+                </div>
 
-            <div>
-                <h5>ЗВОНИТЕ</h5>
+                <div  class="footer-contact" >
+                    <hr>
+                    <h5> ЗВОНИТЕ</h5>
 
-                <span><a href="tel:+442045770896">GB +4420 45770896</a></span> <br>
-                <span><a href="tel:+74993227009">RU +7 499 3227009</a></span> <br>
-                <span><a href="tel:+48784806484">PL +48 784 806484</a></span> 
+                    <div  class="contact-info"><a href="tel:+442045770896">GB +4420 45770896</a></div>
+                    <div  class="contact-info"><a href="tel:+74993227009">RU +7 499 3227009</a></div> 
+                    <div  class="contact-info"><a href="tel:+48784806484">PL +48 784 806484</a></div> 
 
+                </div>
+
+                <div  class="footer-contact">
+                    <hr>
+                    <h5  >ПИШИТЕ</h5>
+                    <div class="contact-info"  ><a href="mailto:info@miratexhouse.com"> info@miratexhouse.com</a></div>
+
+                </div>
+
+                <div  class="footer-contact">
+                    <hr>
+                    <h5  >ПРИЕЗЖАЙТЕ</h5>
+                    <div class="contact-info" >Miratex House OU</div> 
+                    <div class="contact-info" >Registry code 14940959</div>
+                    <div class="contact-info" >Address: Sepapaja 6, Tallinn</div>
+                    
+
+                </div>
             </div>
+      </div>  
 
-            <div>
-                <h5>ПИШИТЕ</h5>
-                <span><a href="mailto:info@miratexhouse.com"> info@miratexhouse.com</a></span>
-
-            </div>
-
-            <div>
-                <h5>ПРИЕЗЖАЙТЕ</h5>
-                <span>Miratex House OU</span> <br>
-                <span>Registry code 14940959</span> <br>
-                <span>Address: Sepapaja 6, Tallinn</span> <br>
-                
-
-            </div>
-        </div>
-
-        <hr>
+        <hr width="1200px">
 
         <!--bottom of the footer-->
-        <div>
-            <span>© MiratexHouse. all rights reserved</span>
-            <span>DISCLAIMER</span>
-            <span>INVESTMENTS RISKS</span>
-            <span>GENERAL LOAM TEARMS</span>
-            <span>RISK WARNING</span>
+        <div id="footer-underline">
+            <span id="footer-underline-text">© MiratexHouse. all rights reserved</span>
+            <span class="footer-underline-text">DISCLAIMER</span>
+            <span class="footer-underline-text">INVESTMENTS RISKS</span>
+            <span class="footer-underline-text">GENERAL LOAM TEARMS</span>
+            <span class="footer-underline-text">RISK WARNING</span>
             <span>TERMS OF USE</span>
         </div>
+        <br>
 
         
     </footer>
