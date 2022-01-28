@@ -143,26 +143,120 @@ color: #CACACA;
     }
     #map {
         margin-top: 20px;
+        margin-bottom: 150px;
+    }
+
+    #form-flex {
+        display: flex;
+    }
+
+    #under-map-text {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    #under-map-text h2 {
+        margin-top: 0;
+        padding-top: 0;
+        width: 600px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 57px;
+        text-transform: uppercase;
+
+    }
+    #under-map-text1 {
+        margin: 40px 0;
+    }
+    .under-map-text {
+        font-family: 'SF Pro Display';
+        width: 400px; 
+        margin: 40px 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        
+    }
+
+     #form-flex form {
+        /* width: 400px; */
+        height: 435px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+     }
+     /* form input { */
+        .name,
+        .contact {
+        background: #161616;
+        text-decoration: #FFFFFF;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+        margin-right: 30px;
+        padding-left: 0;
+        margin-left: 0;
+        border-top-style: none;
+        border-right-style: none;
+        border-left-style: none;
+     }
+     .name  {
+        width: 185px;
+        height: 35px;
+        text-decoration: #FFFFFF;
+        color: #FFFFFF;
+     }
+     .contact {
+        width: 400px;
+        height: 35px;
+     }
+     #message {
+        height: 70px;
+        margin-bottom: 15px;
+     }
+
+     form ::placeholder {
+        text-decoration: #FFFFFF;
+        color: #FFFFFF;
+     }
+
+     #submit {
+        background: #161616;
+        text-decoration: #FFFFFF;
+        color: #FFFFFF;
+
+        width: 400px;
+        height: 60px;
+        margin-top: 40px;
+        margin-bottom: 150px;
+        border-style: solid ;
+        border-top-style: 3px;
+        border-right-style: 3px;
+        border-bottom-style: 3px;
+        border-left-style: 3px;
+     }
+     #form-flex p  {
+        width: 375px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    #form-flex span {
+        color: rgb(31, 125, 187);
     }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#footer {
+    /* margin-top: 200px; */
+}
+footer hr {
+    margin-top: 10px;
+}
 
 #footer-underline {
     margin-top: 20px;
@@ -182,3 +276,30 @@ color: #CACACA;
     line-height: 17px;
     font-variant: small-caps;
     color: #FFFFFF;
+}
+
+
+                                            /* succes */
+
+    .succes h1 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 57px;
+        text-transform: uppercase;
+        color: #FFFFFF;}
+
+    .succes p  {
+        width: 371.72px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;}
+
+
+
+
+                                                 /* makeMoneyWithUs */
+
+
+
