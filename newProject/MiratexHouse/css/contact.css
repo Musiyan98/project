@@ -303,3 +303,181 @@ footer hr {
 
 
 
+    #make-money-h1 {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 57px;
+        text-transform: uppercase;
+        margin-top: 100px;
+        margin-bottom: 40px;
+        width: 665px;
+    }
+
+    #make-money-p {
+        width: 400px;
+                
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        /* text-transform: uppercase; */
+        color: #FFFFFF;
+    }
+    .make-money-right-text {
+        border-style: outset;
+        border-top: none;  
+        border-right: none;    
+        border-bottom: none;    
+        border-left-color: #fff;    
+        border-left-width: 1px;
+        margin-left: 130px;
+        padding-left: 70px;
+        margin-top: 70px ;
+    }
+/* 
+    #make-money-main-block h5  {
+        width: 400px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 40px;
+    } */
+
+    .make-money-right-text h5 {
+        width: 400px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 40px;
+    }
+
+    .make-money-right-text p {
+        width: 400px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 70px;
+    }
+    .make-money-right-text {margin-bottom: 150px;}
+
+    .make-money-left-text h2 {
+
+        font-family: SF Pro Display;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 57px;
+        margin-bottom: 40px;
+        }
+
+    .make-money-left-text-h5 {   
+        width: 380px;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 40px;
+        }
+        
+    .make-money-left-text p {
+        width: 399.72px;
+                
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        }
+
+    .make-money-main-block h2 {
+        width: 600px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 57px;
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    .step-number {
+        width: 60px;
+        height: 60px; 
+        border-style: outset;
+        border-color: #fff;  
+        border-width: 1px;
+        text-align: center;
+                
+        float: left;
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        margin-right: 40px;
+        
+    }
+
+    .step-number span {
+        padding: 23px 10px ;
+        display: table-cell;
+    vertical-align: middle;
+    }
+        
+
+      
+
+    .four-step {
+        display: flex;
+        margin-bottom: 40px;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .four-step-under-text {
+        width: 400px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+
+    .make-money-button { 
+        background: #161616;
+        text-decoration: #FFFFFF;
+        color: #FFFFFF;
+        width: 400px;
+        height: 60px;
+        margin-top: 40px;
+        border-style: solid ;
+        border-top-style: 3px;
+        border-right-style: 3px;
+        border-bottom-style: 3px;
+        border-left-style: 3px;}
+
+
+        .make-money-down-text {
+            margin-top: 150px;
+        }
+
+        .make-money-down-text p {
+            width: 400px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+        }

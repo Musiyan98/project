@@ -1,4 +1,99 @@
 @font-face {
     font-family: "SF Pro Display";
     font-style: normal;
-    src: url("/newProject/MiratexHouse/fontSFPro/SF-Pro-Display-Black.otf") format("otf");
+    src: url("/newProject/MiratexHouse/fontSFPro/SF-Pro-Display-Black.otf") format("otf");}
+
+    body {
+        font-family: 'SF Pro Display', sans-serif;
+        background-color: #fff;  
+        
+            }
+
+                                          /* MODEL HOME 15 */
+
+    #model-home-15 h1 {
+        font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    text-transform: uppercase;
+}
+
+    .model-home-15-foto1 {
+        margin-top: 40px;
+        margin-bottom: 150px    ;
+    }
+
+    .model-home-15-flex1 {
+        display: flex;
+    }
+
+    .model-home-15-fotopack1 {
+        margin-bottom: 150px;
+    }
+
+    #model-home-15-foto2 {
+        margin-bottom: 20px;
+        margin-right: 100px;
+    }
+
+    .model-home-15-foto5 {
+        margin-bottom: 100px;
+    }
+
+    #model-home-15 ul{   
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 100%;
+        }
+
+        .catalog-button {
+            background: #fff;
+            
+            color: #1D1D1D;
+            width: 400px;
+            height: 60px;
+            margin-top: 40px;
+            border-style: solid ;
+            border-top-style: 3px;
+            border-right-style: 3px;
+            border-bottom-style: 3px;
+            border-left-style: 3px;
+            margin-top: 70px;
+
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            text-transform: uppercase;
+            color: #1D1D1D;
+            }
+
+    .model-home-15-flex2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .model-home-15-flex3 {
+        margin-right: 200px;
+    }
+
+
+   .model-home-15-flex4 p {   
+        width: 376px;
+                
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #1D1D1D;
+    margin-bottom: 145px;}
+
+    .model-home-15-foto6 {
+        margin-bottom: 20px;
+    }
+    
