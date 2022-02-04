@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miratex house</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/Catalog.css">
+    <!-- <link rel="stylesheet" href="css/Catalog.css"> -->
+    
 </head>
 <body>
     <header>
@@ -27,9 +28,9 @@
             </div>
 
             <div id="catalog">КАТАЛОГ</div>
-            <div id="contact">КОНТАКТЫ</div>
-            <div id="money">ЗАРАБАТЫВАЙ С НАМИ</div>
-
+            <a href="Contact.html"> <div id="contact">КОНТАКТЫ</div> </a>
+            <a href="MakeMoneyWithUs.html"><div id="money"> ЗАРАБАТЫВАЙ С НАМИ</div></a>
+            <!-- <a href="MakeMoneyWithUs.html"> </a> -->
             <!--language-->
             <div>
                 <ul id="language">
@@ -43,17 +44,10 @@
             <!--/language-->
 
             <!--share-->
-            <div>
-                <img id="share-icon" Width="24px" src="img/link_02.png" alt="link_icon">
-                <div id="share">ПОДЕЛИТЬСЯ</div>
-                <!-- <div>
-                    <ul>
-                        <li> <img Width="24px" src="img/instagram-icon-logo-vector-download.jpg" alt="instagram-icon"></li>
-                        <li> <img Width="24px" src="img/Vector1.png" alt="facebook-icon"></li>
-                        <li> <img Width="24px" src="img/Pinterest - Original.png" alt="Pinterest-icon"></li>
-                        <li> <img Width="24px" src="img/YouTube - Original.png" alt="YouTube-icon"></li>
-                    </ul>
-                </div> -->
+            <div id="share-popup">
+               <a href="#popup"> <img id="share-icon" Width="24px" src="img/link_02.png" alt="link_icon">
+                <div id="share">ПОДЕЛИТЬСЯ</div> </a>
+                
             </div>
             <!--/share-->
 
@@ -537,13 +531,13 @@
 
             <div id="used">
                 <h2>КАК ВЫ МОЖЕТЕ ИХ ИСПОЛЬЗОВАТЬ</h2>
-                <div class="benefits-flex">
+                <div id="benefits-scroll" class="benefits-flex">
 
-                    <div id="benefits-id1">
+                    <div id="benefits-id1" class="benefitsScroolDiv1">
                         <div class="benefits-flex">
                             <span >
                                 <!-- <img  Width="60px" src="img/Rectangle 9.png" alt="icon"> -->
-                                <button><img  id="benefits-buttom1" Width="30px" src="img/Vector 1.png" alt="icon"></button>
+                                <button onclick="showBenefits1(this)"><img  id="benefits-buttom1" Width="30px" src="img/Vector 1.png" alt="icon"></button>
                             </span>
                             <p>Дополнительное место для дополнительных опций</p>
                         </div>
@@ -566,11 +560,11 @@
                         </div>
                     </div>
 
-                    <div id="benefits-id2">
+                    <div id="benefits-id2" class="benefitsScroolDiv2">
                         <div class="benefits-flex">
                             <span >
                                 <!-- <img Width="60px" src="img/Rectangle 9.png" alt="icon"> -->
-                                <button><img  id="benefits-buttom2" Width="30px" src="img/Vector 1.png" alt="icon"></button>  
+                                <button onclick="showBenefits2(this)"><img  id="benefits-buttom2" Width="30px" src="img/Vector 1.png" alt="icon"></button>  
                             </span>
                             <p>Доход от аренды для мгновенного возврата вложений</p>
                         </div>
@@ -608,20 +602,20 @@
                     <h1>КАТАЛОГ</h1>
 
                     <ul class="catalog-list">
-                        <li><a href="ModelHome15.html"> Model Home 15</a></li>
-                        <li>Model Home 30</li>
-                        <li>Model Home lux</li>
-                        <li>Model cafe l15</li>
-                        <li>Model cafe s15</li>
-                        <li>Model hostel 15</li>
+                        <a href="#model-home-15">  <li>Model Home 15</li></a>
+                        <a href="#model-home-30-mainbox">  <li>Model Home 30</li></a>
+                        <a href="#model-home-lux-main-box">  <li>Model Home lux</li></a>
+                        <a href="#model-cafe-l15-main-box">  <li>Model cafe l15</li></a>
+                        <a href="#model-cafe-l15-main-box">  <li>Model cafe s15</li></a>
+                        <a href="#model-hostel-h15-main-box">  <li>Model hostel 15</li></a>
                     </ul>
                     <ul class="catalog-list">
-                        <li>Model hotel 15</li>
-                        <li>Model office 15</li>
-                        <li>Model office 30</li>
-                        <li>Model shop 15</li>
-                        <li>Model sleep box</li>
-                        <li>Model wc</li>
+                        <a href="#model-hotel-h15-main-box"> <li>Model hotel 15</li></a>
+                        <a href="#model-office15-main-box"> <li>Model office 15</li></a>
+                        <a href="#model-office30-main-box"><li>Model office 30</li></a>
+                        <a href="#model-shop15-main-box"><li>Model shop 15</li></a>
+                        <a href="#model-sleep-box-main-box"><li>Model sleep box</li></a>
+                       <a href="#model-WC-main-box"><li>Model wc</li></a>
                     </ul>
                     <button class="hiper-button" id="save-catalog">скачать каталог</button>
                 </div>
@@ -631,9 +625,610 @@
                 <hr>
 
                 <!--katalog-main-space-->
-                <div style=" width: 1198.72px;
+                <div style=" width: 1200px;
                 height: 3073.85px;">
+                    <div class="slider-container">
+                        <div class="slider-track" >
 
+                    
+
+
+
+                         <!-- MODEL HOME 15 -->
+
+                                                        <div class="slider-item" id="model-home-15">
+                                                            
+                                                            <h1> 
+                                                                MODEL HOME 15
+                                                            </h1>
+
+                                                            <div class="model-home-15-foto1">
+                                                                <img width="1000px" src="img/Model Home 15/L15.png" alt="photo">
+                                                            </div>
+
+                                                            <div class="model-home-15-flex1 model-home-15-fotopack1 ">
+                                                                <div>
+                                                                    <img id="model-home-15-foto2" model-home-15-flex1 width="300px" height="300px" src="img/Model Home 15/65c3372a7bece34580307ba36b601cf4.png" alt="photo">
+                                                                    <img width="300px" height="300px" src="img/Model Home 15/bcc0ca29f5cfdc3b853c9090d45b3539.png" alt="photo">
+                                                                </div>
+                                                                <div>
+                                                                    <img width="799px" height="620px" src="img/Model Home 15/5fe61436a80a3f5967a3c02a01b108e1.png" alt="photo">
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="model-home-15-flex1">
+                                                                <div class="model-home-15-flex3">
+                                                                    <img class="model-home-15-foto5" width="400px" height="750px" src="img/Model Home 15/5828f5fc14faf0698a51c4fbff075568.png" alt="photo">
+
+                                                                    <ul>
+                                                                        <li>Изготовлен из одного  20Ft контейнера площадью 15 кв.м;</li><br>
+                                                                        <li>Имеет полноценное спальное место диван-кровать;</li><br>
+                                                                        <li>Кухня с индукционной плитой и холодильником;</li><br>
+                                                                        <li>Душ и туалет;</li><br>
+                                                                        <li>Телевизор;</li><br>
+                                                                        <li>Wi-Fi Router;</li><br>
+                                                                        <li>Теплый пол, обогревательные керамопанели;</li><br>
+                                                                        <li>Климат-контроль;</li><br>
+                                                                        <li>Автономное электричество;</li><br>
+                                                                        <li>Автономная канализация.</li>
+                                                                    </ul>
+                                                                    
+                                                                    <div>
+                                                                        <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="model-home-15-flex4">
+                                                                    <p>Идеальный вариант для жизни. Может быть использован для постоянного проживания, для отдыха на природе, гостевого домика. 
+                                                                        <br> <br>
+                                                                        Способен разместить 2-х человек.</p>
+                                                                    <div class="model-home-15-flex2">
+                                                                        <img class="model-home-15-foto6" width="400px" height="500px" src="img/Model Home 15/da5b324aefe75e7c881c49dca989c64f.png" alt="photo">
+                                                                        <img width="400px" height="500px" src="img/Model Home 15/5bb95f12aa80cdeda9ab2a86d5e9310b.png" alt="photo">
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <!--<img src="img/Model Home 15" alt="photo">-->
+                                                        </div>
+
+
+
+
+                          <!-- MODEL HOME 30 -->
+
+                                                        <div class="slider-item" id="model-home-30-mainbox">
+                                                            <h1> 
+                                                                MODEL HOME 30
+                                                            </h1>
+                                                    
+                                                            <div id="model-home-30-photo1">
+                                                                <img width="1000px" height="675px" src="img/Model Home 30/L15.png" alt="photo">
+                                                            </div>
+                                                    
+                                                            <div class="model-home-30-flex1">
+                                                                <div >
+                                                                    <img width="400px" height="600px" src="img/Model Home 30/L16.png" alt="photo">
+                                                                </div>
+                                                                <div id="model-home-30-rightpart1">
+                                                                    <img width="600px" height="400px" src="img/Model Home 30/otel-8.png" alt="photo">
+                                                    
+                                                                    <P>Идеальный вариант для жизни. Может быть использован для 
+                                                                        постоянного проживания, отдыха на природе, гостевого домика. <br>
+                                                                        <br> Способен разместить 4-х человек.</P> 
+                                                                </div>
+                                                            </div>
+                                                    
+                                                            <div class="model-home-30-flex1">
+                                                                <div>
+                                                                    <ul>
+                                                                        <li>Изготовлен из одного  40Ft контейнера площадью 30 кв.м;</li> <br>
+                                                                        <li>Имеет полноценное спальное место (кровать размера king size);</li> <br>
+                                                                        <li>Кухня с индукционной плитой и холодильником;</li> <br>
+                                                                        <li>Душ и туалет;</li> <br>
+                                                                        <li>Телевизор;</li> <br> 
+                                                                        <li>Wi-Fi Router;</li> <br>
+                                                                        <li>Теплый пол, обогревательные керамопанели;</li> <br>
+                                                                        <li>Климат-контроль;</li> <br>
+                                                                        <li>Автономное электричество;</li> <br>
+                                                                        <li>Автономная канализация.</li><br>
+                                                                    </ul>
+                                                                    
+                                                                    <div>
+                                                                        <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                    </div>
+                                                                </div>
+                                                    
+                                                                <div>
+                                                                    <img width="645px" height="420px" src="img/Model Home 30/F30_home-rzut.png" alt="photo">
+                                                                </div>
+                                                    
+                                                            </div>
+                                                    
+                                                            <!--<img src="img/Model Home 15" alt="photo">-->
+                                                        </div>
+
+
+
+
+
+                          <!-- MODEL HOME LUX -->
+
+
+                                                        <div class="slider-item" id="model-home-lux-main-box">
+                                                            <h1 id="model-home-lux-main-box-h1"> 
+                                                                MODEL HOME LUX
+                                                            </h1>
+                                                    
+                                                            <div>
+                                                                <img id="model-home-lux-photo1" width="1000px" height="675px" src="img/Model Home lux/L15.png" alt="photo">
+                                                            </div>
+                                                    
+                                                            <div class="model-home-lux-flex1">
+                                                                <div class="model-home-lux-flex2">
+                                                                    <img id="model-home-lux-photo2" width="400px" height="400px" src="img/Model Home lux/L16.png" alt="photo">
+                                                                    <img width="400px" height="400px" src="img/Model Home lux/L17.png" alt="photo">
+                                                                </div>
+                                                                <div class="model-home-lux-flex2">
+                                                                    <img id="model-home-lux-photo4" width="600px" height="400px" src="img/Model Home lux/otel-8.png" alt="photo">
+                                                    
+                                                                    <P>Идеальный вариант для жизни. Может быть использован для постоянного
+                                                                        проживания, отдыха на природе, в качестве гостевого домика.
+                                                                    <br> <br> Способен разместить 4-х человек.</P> 
+                                                                </div>
+                                                            </div>
+                                                    
+                                                            <div>
+                                                                <img id="model-home-lux-photo5" width="1000px" height="395px" src="img/Model Home lux/LD18.png" alt="photo">
+                                                            </div>
+                                                    
+                                                            <div class="model-home-lux-flex1">
+                                                                <div id="model-home-lux-list">
+                                                                    <ul>
+                                                                        <li>Изготовлен из одного  40Ft контейнера площадью 30 кв.м;</li> <br>
+                                                                        <li>Имеет полноценное спальное место (кровать размера king size);</li> <br>
+                                                                        <li>Кухня с индукционной плитой и холодильником;</li> <br>
+                                                                        <li>Душ и туалет;</li> <br>
+                                                                        <li>Телевизор;</li> <br>
+                                                                        <li>Wi-Fi Router;</li> <br>
+                                                                        <li>Теплый пол, обогревательные керамопанели;</li> <br>
+                                                                        <li>Климат-контроль;</li> <br>
+                                                                        <li>Автономное электричество;</li> <br>
+                                                                        <li>Автономная канализация.</li>
+                                                                    </ul>
+                                                                    
+                                                                    <div>
+                                                                        <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                    </div>
+                                                                </div>
+                                                    
+                                                                <div class="model-home-lux-flex2">
+                                                                    <img id="model-home-lux-photo6" width="300px" height="300px" src="img/Model Home lux/a287a380479203.png" alt="photo">
+                                                                    <img width="300px" height="300px" src="img/Model Home lux/bf76a780479203.png" alt="photo">
+                                                                </div>
+                                                    
+                                                            </div>
+                                                           
+                                                        </div>
+
+                          <!-- MODEL CAFE L15 -->
+
+
+                                                        <div class="slider-item" id="model-cafe-l15-main-box">
+                                                            <h1> 
+                                                                MODEL CAFE L15
+                                                            </h1>
+                                                    
+                                                            <div>
+                                                                <img id="model-cafe-l15-photo1" width="1000px" height="675px" src="img/Model cafe l15/L15.png" alt="photo">
+                                                            </div>
+                                                    
+                                                            <div class="model-cafe-l15-flex1">
+                                                                <div>
+                                                                    <img width="298.72px" height="290px" src="img/Model cafe l15/L16.png" alt="photo">
+                                                                    <img id="model-cafe-l15-photo3" width="298.72px" height="290px" src="img/Model cafe l15/L17.png" alt="photo">
+                                                                </div>
+                                                    
+                                                                <div>
+                                                                    <img width="800px" height="600px" src="img/Model cafe l15/otel-8.png" alt="photo">
+                                                                </div>
+                                                            </div>
+                                                    
+                                                            
+                                                            <div class="model-cafe-l15-flex1">
+                                                                <div>
+                                                                    <div>
+                                                                        <img width="400px" height="750px" src="img/Model cafe l15/6e7e5880479203.png" alt="photo">
+                                                                    </div>
+                                                    
+                                                                    <ul id="model-cafe-l15-list">
+                                                                        <li>Изготовлен из одного  20Ft контейнера площадью 15 кв.м;</li> <br>
+                                                                        <li>Теплый пол, обогревательные керамопанели;</li> <br>
+                                                                        <li>Климат-контроль;</li> <br>
+                                                                        <li>Автономное электричество;</li> <br>
+                                                                        <li>Автономная канализация.</li> <br>
+                                                                    </ul>
+                                                                    
+                                                                    <div>
+                                                                        <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                    </div>
+                                                                </div>
+                                                    
+                                                                <div class="model-cafe-l15-flex2">
+                                                                    <div>
+                                                                        <p> Идеальный вариант для бизнеса. Может быть оснащен вендинговым оборудованием 
+                                                                            (пицемат, автомат по продаже готовых блюд, кофемат, автомат по продаже холодных 
+                                                                            напитков, автомат по продаже мороженного, автомат по продаже свежевыжатых соков),
+                                                                            а также рекламным экраном для привлечения покупателей и как дополнительный инструмент
+                                                                            для заработка денег.
+                                                                        <br><br> Способен работать автономно без обслуживающего персонала.</p>
+                                                                    </div>
+                                                    
+                                                                    <img id="model-cafe-l15-photo6" width="400px" height="350px" src="img/Model cafe l15/bf76a780479203.png" alt="photo">
+                                                                    <img width="400px" height="500px" src="img/Model cafe l15/a287a380479203.png" alt="photo">
+                                                                </div>
+                                                    
+                                                            </div>
+                                                           
+                                                        </div>
+
+
+                           <!-- MODEL HOSTEL H15 -->
+
+                                                        <div class="slider-item" id="model-hostel-h15-main-box">
+                                                            <div id="model-hostel-h15-head"><h1> 
+                                                                MODEL HOSTEL H15
+                                                            </h1></div>
+                                                    
+                                                            <div>
+                                                                <img id="model-hostel-h15-photo1" width="1000px" height="675px" src="img/Model hostel 15/L15.png" alt="photo">
+                                                            </div>
+                                                    
+                                                            <div class="model-hostel-h15-flex1">
+                                                                <div id="model-hostel-h15-text">
+                                                                   <p>Идеальный вариант для студенческих городков, размещения временных рабочих на 
+                                                                    фабриках, размещения на концертах, выставках, спортивных соревнованиях, размещения 
+                                                                    при стихийных бедствиях, организации мини-отелей на побережье, в  горах и другие
+                                                                    варианты размещения. 
+                                                                    <br> <br>
+                                                                     Способен работать автономно без обслуживающего персонал
+                                                                    а через систему умных замков и приложение.</p>    
+                                                                </div>
+                                                    
+                                                                <div>
+                                                                    <img id="model-hostel-h15-photo2" width="600px" height="400px" src="img/Model hostel 15/otel-8.png" alt="photo">
+                                                                </div>
+                                                            </div>
+                                                    
+                                                            
+                                                            
+                                                            <div>
+                                                                <div>
+                                                                    <img id="model-hostel-h15-photo3" width="600px" height="400px" src="img/Model hostel 15/6e7e5880479203.png" alt="photo">
+                                                                </div>
+                                                    
+                                                                <ul id="model-hostel-h15-list">
+                                                                    <li>Изготовлен из одного 20Ft контейнера площадью 15 кв.м;</li> <br>
+                                                                    <li>Летняя терраса;</li> <br> 
+                                                                    <li>Туалет/Душ;</li> <br> 
+                                                                    <li>Телевизор;</li> <br>
+                                                                    <li>Wi-Fi;</li> <br>
+                                                                    <li>Теплый пол, обогревательные керамопанели;</li> <br>
+                                                                    <li>Климат-контроль;</li> <br>
+                                                                    <li>Автономное электричество;</li> <br>
+                                                                    <li>Автономная канализация.</li>
+                                                                </ul>
+                                                                
+                                                                <div>
+                                                                    <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                </div>
+                                                            </div>
+                                                              
+                                                           
+                                                        </div>
+
+
+
+
+
+                         <!-- MODEL HOTEL H15 -->
+
+
+
+                                                        <div class="slider-item" id="model-hotel-h15-main-box">
+                                                            <h1> 
+                                                                MODEL HOTEL H15
+                                                            </h1>
+                                                    
+                                                            <div>
+                                                                <img id="model-hotel-h15-photo1" width="1000px" height="675px" src="img/Model hotel 15/L15.png" alt="photo">
+                                                            </div>
+                                                    
+                                                            <div class="model-hotel-h15-flex1">
+                                                                <div class="model-hotel-h15-flexn">
+                                                                    <img width="298.72px" height="290px" src="img/Model hotel 15/L16.png" alt="photo">
+                                                                    <img id="model-hotel-h15-photo3" width="298.72px" height="290px" src="img/Model hotel 15/L17.png" alt="photo">
+                                                                </div>
+                                                    
+                                                                <div>
+                                                                    <img id="model-hotel-h15-photo4" width="800px" height="600px" src="img/Model hotel 15/otel-8.png" alt="photo">
+                                                                </div>
+                                                            </div>
+                                                    
+                                                            
+                                                            <div class="model-hotel-h15-flex1">
+                                                                <div>
+                                                                    <div>
+                                                                        <img id="model-hotel-h15-photo5" width="400px" height="750px" src="img/Model hotel 15/6e7e5880479203.png" alt="photo">
+                                                                    </div>
+                                                    
+                                                                    <ul class="model-hotel-h15-list">
+                                                                        <li>Изготовлен из одного  20Ft контейнера площадью 15 кв.м;</li> <br>
+                                                                        <li>Летняя терраса;</li> <br>  
+                                                                        <li>Туалет/Душ;</li> <br>
+                                                                        <li>Телевизор;</li> <br>
+                                                                        <li>Wi-Fi;</li> <br>
+                                                                        <li>Теплый пол, обогревательные керамопанели;</li> <br>
+                                                                        <li>Климат-контроль;</li> <br>
+                                                                        <li>Автономное электричество;</li> <br>
+                                                                        <li>Автономная канализация.</li> 
+                                                                    </ul>
+                                                                    
+                                                                    <div>
+                                                                        <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                    </div>
+                                                                </div>
+                                                    
+                                                                <div>
+                                                                    <div class="model-hotel-h15-right-text">
+                                                                        <p> Идеальный вариант для студенческих городков, 
+                                                                            размещения на концертах, выставках, спортивных соревнованиях, организации мини-отелей 
+                                                                            на побережье, в горах, организации передвижных городских отелей  и другие варианты
+                                                                            размещения.            
+                                                                            <br> <br> <br>
+                                                                           Способен работать автономно без обслуживающего персонала через систему умных замков и приложение.</p>
+                                                                    </div>
+                                                    
+                                                                    <img width="400px" height="800px" src="img/Model hotel 15/f5087783642927.5d42a3e16845b.png" alt="photo">
+                                                                    
+                                                                </div>
+                                                    
+                                                            </div>
+                                                           
+                                                        </div>
+
+
+
+
+
+                          <!-- MODEL OFFICE 15 -->
+
+
+                                                        <div class="slider-item" id="model-office15-main-box">
+                                                            <h1> 
+                                                                MODEL OFFICE 15
+                                                            </h1>
+                                                    
+                                                            <div>
+                                                                <img id="model-office15-photo1" width="1000px" height="675px" src="img/Model office 15/L15.png" alt="photo">
+                                                            </div>
+                                                    
+                                                            <div class="model-office15-flex1">
+                                                                <div id="model-office15-text">
+                                                                   <p>Идеальный вариант для передвижного автономного офиса.
+                                                                    <br> <br>
+                                                                    Способен работать автономно без обслуживающего персонала
+                                                                        через систему умных замков и приложение.</p>    
+                                                                </div>
+                                                    
+                                                                <div>
+                                                                    <img id="model-office15-photo2" width="600px" height="400px" src="img/Model office 15/otel-8.png" alt="photo">
+                                                                </div>
+                                                            </div>
+                                                    
+                                                            
+                                                            
+                                                            <div>
+                                                                <div>
+                                                                    <img id="model-office15-photo3" width="600px" height="400px" src="img/Model office 15/6e7e5880479203.png" alt="photo">
+                                                                </div>
+                                                    
+                                                                <ul id="model-office15-list">
+                                                                    <li>Изготовлен из одного 20Ft контейнера площадью 15 кв.м;</li> <br>
+                                                                    <li>Туалет;</li> <br>
+                                                                    <li>Wi-Fi;</li> <br>
+                                                                    <li>Теплый пол, обогревательные керамопанели;</li> <br>
+                                                                    <li>Климат-контроль;</li> <br>
+                                                                    <li>Автономное электричество;</li>
+                                                                 </ul>
+                                                                
+                                                                <div>
+                                                                    <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                </div>
+                                                            </div>
+                                                              
+                                                           
+                                                        </div>
+
+
+                          <!-- MODEL OFFICE 30 -->
+
+
+                                                        <div class="slider-item" id="model-office30-main-box">
+                                                            <h1> 
+                                                                MODEL OFFICE 30
+                                                            </h1>
+                                                    
+                                                            <div>
+                                                                <img id="model-office30-photo1" width="1000px" height="675px" src="img/Model office 30/L15.png" alt="photo">
+                                                            </div>
+                                                    
+                                                            <div class="model-office30-flex1">
+                                                                <div id="model-office30-text">
+                                                                   <p>Идеальный вариант для передвижного автономного офиса. <br> <br>
+                                                                   Способен работать автономно без обслуживающего персонала
+                                                                        через систему умных замков и приложение.</p>   
+                                                                         
+                                                                </div>
+                                                    
+                                                                <div>
+                                                                    <img id="model-office30-photo2" width="600px" height="400px" src="img/Model office 30/otel-8.png" alt="photo">
+                                                                </div>
+                                                            </div>
+                                                    
+                                                            
+                                                            
+                                                            <div>
+                                                                <div>
+                                                                    <img id="model-office30-photo3" width="860px" height="575px" src="img/Model office 30/fe6e04c27c310cc1a4ca8f83aec3272e 1.png" alt="photo">
+                                                                </div>
+                                                    
+                                                                <ul id="model-office30-list">
+                                                                    <li>Изготовлен из одного 40Ft контейнера, площадью 30 кв.м;</li> <br>
+                                                                    <li>Туалет;</li> <br>
+                                                                    <li>Wi-Fi;</li> <br>
+                                                                    <li>Теплый пол, обогревательные керамопанели;</li> <br>
+                                                                    <li>Климат-контроль;</li> <br>
+                                                                    <li>Автономное электричество;</li>
+                                                                </ul>
+                                                                
+                                                                <div>
+                                                                    <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                </div>
+                                                            </div>
+                                                              
+                                                           
+                                                        </div>
+                                                    
+                          <!-- MODEL SHOP 15 -->
+
+                                                        <div class="slider-item" id="model-shop15-main-box">
+                                                            <h1> 
+                                                                MODEL SHOP 15
+                                                            </h1>
+                                                    
+                                                            <div>
+                                                                <img id="model-shop15-photo1" width="1000px" height="675px" src="img/Model shop 15/L15.png" alt="photo">
+                                                            </div>
+                                                    
+                                                            <div class="model-shop15-flex1">
+                                                                <div id="model-shop15-text">
+                                                                   <p>Идеальный вариант для передвижного автономного офиса.
+                                                                       <br> <br>
+                                                                     Способен работать автономно без обслуживающего персонала
+                                                                        через систему умных замков и приложение.</p>   
+                                                                         
+                                                                </div>
+                                                    
+                                                                <div>
+                                                                    <img id="model-shop15-photo2" width="600px" height="400px" src="img/Model shop 15/otel-8.png" alt="photo">
+                                                                </div>
+                                                            </div>
+                                                    
+                                                            <div>
+                                                                <img id="model-shop15-photo3" width="600px" height="400px" src="img/Model shop 15/conteiner_galtrade_shop2.png" alt="photo">
+                                                            </div>
+                                                            
+                                                            <div class="model-shop15-flex1">
+                                                                <div>
+                                                                    <ul id="model-shop15-list">
+                                                                        <li>Изготовлен из одного 40Ft контейнера, площадью 30 кв.м;</li> <br>
+                                                                        <li>Туалет;</li> <br>
+                                                                        <li>Wi-Fi;</li> <br>
+                                                                        <li>Теплый пол, обогревательные керамопанели;</li> <br>
+                                                                        <li>Климат-контроль;</li> <br>
+                                                                        <li>Автономное электричество;</li>
+                                                                    </ul>
+                                                                    
+                                                                    <div>
+                                                                        <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                    </div>
+                                                                </div>
+                                                    
+                                                                <div>
+                                                                    <img id="model-shop15-photo4" width="400px" height="250px" src="img/Model shop 15/Boxpark-Shoreditch3.png" alt="photo">
+                                                                </div>
+                                                            </div>
+                                                         
+                                                        </div>
+
+                            <!-- MODEL SLEEP BOX -->
+
+                                                        <div class="slider-item" id="model-sleep-box-main-box">
+                                                            <h1> 
+                                                                MODEL SLEEP BOX
+                                                            </h1>
+                                                    
+                                                            <div>
+                                                                <img id="model-sleep-box-photo1" width="1000px" height="675px" src="img/Model sleep box/L15.png" alt="photo">
+                                                            </div>
+                                                    
+                                                            <div class="model-sleep-box-flex">
+                                                                <div>
+                                                                    <p id="model-sleep-box-text">Cистема капсул для быстрой организации хостела в любом помещении.</p>  
+                                                                   
+                                                                    <div>
+                                                                        <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                    </div>
+                                                                </div>
+                                                    
+                                                                <div>
+                                                                    <img id="model-sleep-box-photo2" width="640px" height="770px" src="img/Model sleep box/H5197617fc5ac4fbeb4f5de2320fcd889P.png" alt="photo">
+                                                                </div>
+                                                            </div>
+                                                               
+                                                        </div>
+
+                            <!-- MODEL WC -->
+
+
+
+                                                        <div class="slider-item" id="model-WC-main-box">
+                                                            <h1> 
+                                                                MODEL WC
+                                                            </h1>
+                                                    
+                                                            <div>
+                                                                <img id="model-WC-photo1" width="1000px" height="675px" src="img/Model wc/L15.png" alt="photo">
+                                                            </div>
+                                                    
+                                                            <div class="model-WC-flex1">
+                                                                <div>
+                                                                    <img id="model-WC-photo2" width="390px" height="286px" src="img/Model wc/ela-de-sanitary-container-3000mm-03.png" alt="photo">
+                                                    
+                                                                    <div>
+                                                                        <ul id="model-WC-list">
+                                                                            <li>Санитарный узел для автономной работы;</li> <br>
+                                                                            <li>Оснащён автономным электричеством;</li> <br>
+                                                                            <li>Подогреваемый пол;</li> <br>
+                                                                            <li>Возможно оснащение душевыми кабинами.</li>
+                                                                        </ul>
+                                                                        
+                                                                        <div>
+                                                                            <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                    
+                                                                <div class="model-WC-flex2">
+                                                                    <img id="model-WC-photo3" width="547px" height="400px" src="img/Model wc/Untitled.png" alt="photo">
+                                                                    <img id="model-WC-photo4" width="547px" height="400px" src="img/Model wc/ela-de-sanitary-container-3000mm-05.png" alt="photo">
+                                                                </div>
+                                                            </div>
+                                                         
+                                                        </div>
+ 
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
                 </div>
                 <!--/katalog-main-space-->
                     <br>
@@ -644,13 +1239,13 @@
                     <span>
                         <!-- <img Width="60px" src="img/Rectangle 9.png" alt="icon"> -->
                         <!-- <img Width="20px" src="img/Vector 4.png" alt="icon"> -->
-                        <button><img Width="20px" src="img/Vector 4.png" alt="icon"></button>
+                        <button class="btn-prev"><img Width="20px" src="img/Vector 4.png" alt="icon"></button>
                     </span>
 
                     <span>
                         <!-- <img Width="60px" src="img/Rectangle 9.png" alt="icon">
                         <img Width="20px" src="img/Vector 3.png" alt="icon"> -->
-                        <button><img Width="20px" src="img/Vector 3.png" alt="icon"></button>
+                        <button class="btn-next"><img Width="20px" src="img/Vector 3.png" alt="icon"></button>
                     </span>
                 </div>
             </div>
@@ -742,5 +1337,22 @@
 
         
     </footer>
+
+    <div id="popup" class="popup">
+        <a href="#share-popup" class="popup-close"></a>
+        <div class="popup-body">
+            <div class="popup-contetn" id="popup-contact">
+                <ul>
+                    <li> <img height="24px" src="img/instagram-icon-logo-vector-download.jpg" alt="instagram-icon"></li>
+                    <li> <img height="24px" src="img/Vector1.png" alt="facebook-icon"></li>
+                    <li> <img height="24px" src="img/Pinterest - Original.png" alt="Pinterest-icon"></li>
+                    <li> <img height="24px" src="img/YouTube - Original.png" alt="YouTube-icon"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <!-- <script src="js/js.js"></script> -->
 </body>
 </html>

@@ -7,7 +7,7 @@
 
 body {
     font-family: 'SF Pro Display', sans-serif;
-    background-color: #fff;  
+    background-color: rgba(255, 255, 255, 0.966);  
     
         }
 
@@ -65,6 +65,17 @@ header li {
     list-style-type: none;
     padding: 0;
 }
+    #catalog,
+    #contact,
+    #money {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #161616;
+        text-decoration: none;
+        text-underline-offset: none;
+}
 
 #catalog {
     margin: 20px 0;
@@ -76,6 +87,8 @@ header li {
  
 #money {
     margin: 20px 200px 20px 0;
+    
+
 }
 
 #language li {
@@ -207,6 +220,16 @@ h2 {
     font-size: 18px;
     line-height: 21px;
 }
+
+#benefits-id1,
+#benefits-id2 {
+    height: 90px; 
+    overflow: hidden;
+}
+
+                    /* 490px */
+
+
 #benefits-buttom1 {
     padding: 12px 0 0 5px;
     margin-right: 5px;
@@ -446,8 +469,607 @@ a {
 
 
 
+                                                    /* POPUP CONTACT  */
 
 
+ #popup-contact ul {
+    display: flex;
+    list-style-type: none;
+    width: 200px;
+    height: 65px;
+ }
+
+ #popup-contact li {
+     margin-right: 15px;
+     text-align: center;
+     align-content: center;
+ }
+
+ .popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+ }
+ .popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+    .popup-close {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+ .popup-body {
+     position: fixed;
+     top: 45px;
+     left: 1045px;
+     width: 0px;
+     height: 65px;
+    
+
+ }
+
+ .popup-contetn {
+    
+
+ }
+
+  #share {
+     /* text-decoration: none; */
+     color: #161616;
+ }
+
+ .slider-container {
+     overflow: hidden;
+ }
+
+ .slider-track {
+     display: flex;
+     position: relative;
+ }
+
+ .catalog-list li {
+     text-decoration: none;
+     color: #161616;
+ }
+
+ .slider-item {
+    width: 1200px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    /* box-sizing:border-box; */
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                          /* MODEL HOME 15 */
+
+                                          #model-home-15 h1 {
+                                            font-family: 'SF Pro Display';
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        font-size: 64px;
+                                        line-height: 76px;
+                                        text-transform: uppercase;
+                                    }
+                                    
+                                        .model-home-15-foto1 {
+                                            margin-top: 40px;
+                                            margin-bottom: 150px    ;
+                                        }
+                                    
+                                        .model-home-15-flex1 {
+                                            display: flex;
+                                        }
+                                    
+                                        .model-home-15-fotopack1 {
+                                            margin-bottom: 150px;
+                                        }
+                                    
+                                        #model-home-15-foto2 {
+                                            margin-bottom: 20px;
+                                            margin-right: 100px;
+                                        }
+                                    
+                                        .model-home-15-foto5 {
+                                            margin-bottom: 100px;
+                                        }
+                                    
+                                        #model-home-15 ul{   
+                                            font-family: 'SF Pro Display';
+                                            font-style: normal;
+                                            font-weight: normal;
+                                            font-size: 14px;
+                                            line-height: 100%;
+                                            }
+                                    
+                                            .catalog-button {
+                                                background: #fff;
+                                                
+                                                color: #1D1D1D;
+                                                width: 400px;
+                                                height: 60px;
+                                                margin-top: 40px;
+                                                border-style: solid ;
+                                                border-top-style: 3px;
+                                                border-right-style: 3px;
+                                                border-bottom-style: 3px;
+                                                border-left-style: 3px;
+                                                margin-top: 70px;
+                                    
+                                                font-style: normal;
+                                                font-weight: 600;
+                                                font-size: 14px;
+                                                line-height: 17px;
+                                                text-transform: uppercase;
+                                                color: #1D1D1D;
+                                                }
+                                    
+                                        .model-home-15-flex2 {
+                                            display: flex;
+                                            flex-direction: column;
+                                        }
+                                    
+                                        .model-home-15-flex3 {
+                                            margin-right: 200px;
+                                        }
+                                    
+                                    
+                                       .model-home-15-flex4 p {   
+                                            width: 376px;
+                                                    
+                                            font-family: 'SF Pro Display';
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            font-size: 18px;
+                                            line-height: 21px;
+                                            color: #1D1D1D;
+                                        margin-bottom: 145px;}
+                                    
+                                        .model-home-15-foto6 {
+                                            margin-bottom: 20px;
+                                        }
+                                    
+                                    
+                                    
+                                    
+                                                                            /* MODEL HOME 30 */
+                                    
+                                    
+                                        #model-home-30-mainbox h1 {
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 64px;
+                                            line-height: 76px;
+                                            text-transform: uppercase;
+                                            color: #1D1D1D;
+                                        }
+                                    
+                                        #model-home-30-photo1 {
+                                            margin-top: 40px;
+                                            margin-bottom: 150px;
+                                        }
+                                        
+                                        .model-home-30-flex1 {
+                                            display: flex;
+                                            flex-direction: row;
+                                        }
+                                    
+                                        #model-home-30-rightpart1 {
+                                            margin-left: 200px;
+                                            margin-bottom: 185px;
+                                        }
+                                    
+                                        #model-home-30-rightpart1 p {
+                                            width: 375px;
+                                            margin-top: 100px;
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            font-size: 18px;
+                                            line-height: 21px;
+                                            color: #1D1D1D;
+                                        }
+                                        .model-home-30-flex1 li {
+                                            font-family: ' SF Pro Display';
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            font-size: 14px;
+                                            line-height: 100%;
+                                        }
+                                    
+                                    
+                                    
+                                    
+                                                                                    /* MODEL HOME LUX */
+                                    
+                                    
+                                                
+                                      #model-home-lux-main-box-h1 {
+                                        font-style: normal;
+                                        font-weight: 600;
+                                        font-size: 64px;
+                                        line-height: 76px;
+                                        text-transform: uppercase;
+                                        color: #1D1D1D;
+                                      }
+                                    
+                                      #model-home-lux-photo1 {
+                                          margin-top: 40px;
+                                          margin-bottom: 150px;
+                                      }
+                                    
+                                      .model-home-lux-flex1 {
+                                          display: flex;
+                                          flex-direction: row;
+                                      }
+                                    
+                                      #model-home-lux-photo2 {
+                                          margin-bottom: 20px;
+                                          margin-right: 200px;
+                                      }
+                                    
+                                      #model-home-lux-photo4 {
+                                          margin-bottom: 155px;
+                                      }
+                                    
+                                      .model-home-lux-flex2 p {
+                                        width: 400px;
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 18px;
+                                        line-height: 21px;
+                                        color: #000000;
+                                        }
+                                    
+                                        #model-home-lux-photo5 {
+                                            margin-top: 150px;
+                                            margin-bottom: 150px;
+                                        }
+                                    
+                                        .model-home-lux-flex2 {
+                                            display: flex;
+                                            flex-direction: column;}
+                                    
+                                        #model-home-lux-list {
+                                            margin-right: 250px;
+                                            margin-top: 140px;
+                                            font-style: normal;
+                                            font-weight: normal;
+                                            font-size: 14px;
+                                            line-height: 17px;
+                                            color: #000000;
+                                            /* margin-top: 317px; */
+                                        }
+                                    
+                                        #model-home-lux-photo6 {
+                                            margin-bottom: 20px;
+                                        }
+                                    
+                                                                                    /* MODEL CAFE L15 */
+                                    
+                                    
+                                    
+                                        #model-cafe-l15-main-box h1 {
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 64px;
+                                            line-height: 76px;
+                                            text-transform: uppercase;
+                                            color: #1D1D1D;
+                                        }
+                                        #model-cafe-l15-photo1 {
+                                            margin-top: 40px;
+                                            margin-bottom: 150px;
+                                        }
+                                    
+                                        .model-cafe-l15-flex1 {
+                                            display: flex;
+                                          flex-direction: row;
+                                        }
+                                        #model-cafe-l15-photo3 {
+                                            margin-top: 20px;
+                                            margin-right: 99px;
+                                            margin-bottom: 150px;
+                                        }
+                                        .model-cafe-l15-flex2 {
+                                            display: flex;
+                                          flex-direction: column;
+                                          margin-left: 200px;
+                                        }
+                                    
+                                        #model-cafe-l15-list {
+                                            width: 435px;   
+                                            font-style: normal;
+                                            font-weight: normal;
+                                            font-size: 14px;
+                                            line-height: 17px;
+                                            color: #000000;
+                                            margin-top: 200px   ;
+                                        }
+                                    
+                                        .model-cafe-l15-flex2 p {
+                                            width: 400px;
+                                            font-family: 'SF Pro Display';
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            font-size: 18px;
+                                            line-height: 21px;
+                                            color: #000000;
+                                            margin-bottom: 155px;
+                                        }
+                                    
+                                        #model-cafe-l15-photo6 {
+                                            margin-bottom: 20px;
+                                        }
+                                    
+                                                                            /* MODEL HOTEL H15 */
+                                    
+                                    
+                                        #model-hotel-h15-main-box h1 {
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 64px;
+                                            line-height: 76px;
+                                            text-transform: uppercase;
+                                            color: #1D1D1D;
+                                        }
+                                    
+                                        #model-hotel-h15-photo1 {
+                                            margin-top: 40px;
+                                            margin-bottom: 150px;
+                                        }
+                                        .model-hotel-h15-flex1 {
+                                            display: flex;
+                                            flex-direction: row;
+                                        } 
+                                        
+                                    
+                                        #model-hotel-h15-photo3 {
+                                            margin-top: 20px;
+                                            margin-right: 100px;
+                                            margin-bottom: 150px;
+                                         }
+                                    
+                                        #model-hotel-h15-photo4 {
+                                            margin-right: 140px;
+                                        }
+                                    
+                                        #model-hotel-h15-photo5 {
+                                            margin-bottom: 105px;
+                                            margin-right: 200px;
+                                        }
+                                    
+                                        .model-hotel-h15-list {
+                                            font-family: 'SF Pro Display';
+                                            font-style: normal;
+                                            font-weight: normal;
+                                            font-size: 14px;
+                                            line-height: 17px;
+                                            color: #000000;
+                                        }
+                                    
+                                        .model-hotel-h15-right-text {
+                                            width: 400px;
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            font-size: 18px;
+                                            line-height: 21px;
+                                            color: #161616;
+                                            margin-bottom: 245px;
+                                        }
+                                    
+                                    
+                                    
+                                                                    /* MODEL HOSTEL H15 */
+                                    
+                                    
+                                        #model-hostel-h15-head  h1 {
+                                            font-family: 'SF Pro Display';
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 64px;
+                                            line-height: 76px;
+                                            text-transform: uppercase;
+                                            color: #1D1D1D;
+                                        }
+                                    
+                                        #model-hostel-h15-photo1 {
+                                            margin-top: 40px;
+                                            margin-bottom: 150px;
+                                        }
+                                    
+                                        .model-hostel-h15-flex1 {
+                                            display: flex;
+                                            flex-direction: row;
+                                        }
+                                    
+                                        #model-hostel-h15-text {
+                                            width: 400px;
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            font-size: 18px;
+                                            line-height: 21px;
+                                            color: #161616;
+                                            margin-right: 200px;
+                                        }
+                                    
+                                        #model-hostel-h15-photo2 {
+                                            margin-bottom: 150px;
+                                        }
+                                    
+                                        #model-hostel-h15-photo3 {
+                                            margin-bottom: 150px;
+                                        }
+                                    
+                                        #model-hostel-h15-list {
+                                            font-style: normal;
+                                            font-weight: normal;
+                                            font-size: 14px;
+                                            line-height: 17px;
+                                            color: #161616;
+                                        }
+                                    
+                                    
+                                                                        /* MODEL OFFICE 15 */
+                                    
+                                        #model-office30-main-box h1,
+                                        #model-office15-main-box h1,
+                                        #model-shop15-main-box h1,
+                                        #model-sleep-box-main-box h1,
+                                        #model-WC-main-box h1 {
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            font-size: 64px;
+                                            line-height: 76px;
+                                            text-transform: uppercase;
+                                            color: #1D1D1D;
+                                        }
+                                    
+                                        #model-office15-photo1,
+                                        #model-office30-photo1,
+                                        #model-shop15-photo1,
+                                        #model-sleep-box-photo1 {
+                                            margin-top: 40px;
+                                            margin-bottom: 150px;
+                                            
+                                        }
+                                        #model-sleep-box-photo1 {
+                                            margin-right: 200px;
+                                        }
+                                    
+                                        .model-office15-flex1,
+                                        .model-office30-flex1,
+                                        .model-shop15-flex1,
+                                        .model-sleep-box-flex,
+                                        .model-WC-flex1 {
+                                            display: flex;
+                                            flex-direction: row;}
+                                    
+                                        #model-office15-text,
+                                        #model-office30-text,
+                                        #model-shop15-text,
+                                        #model-sleep-box-text {
+                                            width: 400px;
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            font-size: 18px;
+                                            line-height: 21px;
+                                            color: #161616;
+                                            margin-right: 200px;
+                                        }
+                                    
+                                       
+                                        #model-office15-photo2,
+                                        #model-shop15-photo2 {
+                                            padding-top: 0;
+                                            margin-top: 0;
+                                            margin-bottom: 145px;
+                                        }
+                                    
+                                        #model-office15-photo3 {
+                                            margin-bottom: 150px;
+                                        }
+                                        #model-office30-list,
+                                        #model-office15-list,
+                                        #model-shop15-list,
+                                        #model-WC-list {
+                                            font-family: 'SF Pro Display';
+                                            font-style: normal;
+                                            font-weight: normal;
+                                            font-size: 14px;
+                                            line-height: 17px;
+                                            color: #161616;
+                                        }
+                                    
+                                    
+                                                                                /* MODEL OFFICE 15 */
+                                    
+                                        
+                                        #model-office30-photo2 {
+                                            margin-top: 15px;
+                                            margin-bottom: 95px;
+                                        }
+                                    
+                                        #model-office30-photo3 {
+                                            margin-bottom: 95px;
+                                        }
+                                    
+                                                                                    /* MODEL SHOP 15 */
+                                    
+                                    
+                                        #model-shop15-photo3 {
+                                            margin-bottom: 150px;
+                                        }
+                                    
+                                        #model-shop15-photo4 {
+                                            margin-top: 90px;
+                                            margin-left: 200px;
+                                        }
+                                    
+                                    
+                                                                                /* MODEL SLEEP BOX */
+                                        
+                                    
+                                        #model-sleep-box-text {
+                                            width: 400px;
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            font-size: 18px;
+                                            line-height: 21px;
+                                            color: #161616;
+                                            margin-right: 1px;
+                                        }
+                                            
+                                    
+                                        #model-WC-photo1 {
+                                            margin-bottom: 100px;
+                                        }
+                                    
+                                        #model-WC-photo2 {
+                                            margin-bottom: 60px;
+                                            margin-left: -70px;
+                                        }
+                                    
+                                        .model-WC-flex2 {
+                                            display: flex;
+                                            flex-direction: column;}
+                                    
+                                        #model-WC-photo3,
+                                        #model-WC-photo4 {
+                                            margin-top: -60px;
+                                            margin-left: 110px;
+                                        }
 
 
 

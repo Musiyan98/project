@@ -51,6 +51,16 @@ header li {
     list-style-type: none;
     padding: 0;
 }
+#catalog,
+#contact,
+#money {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    text-decoration: none;}
+
 
 #catalog {
     margin: 20px 0;

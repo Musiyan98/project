@@ -1,0 +1,40 @@
+*, 
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.wraper {
+    width: 600px;
+    margin: 0 auto;
+}
+.slider-track {
+display: flex;
+background-color: yellow;
+
+}
+
+.slider-container {
+    overflow: hidden;
+    background-color: rosybrown;
+}
+
+.slider-item {
+    height: 100px;
+    width: 200px;
+    
+}
+
+.slider-item:nth-child(3n+1) {
+    background-color: red;
+}
+.slider-item:nth-child(3n+2) {
+    background-color: blue;
+}
+.slider-item:nth-child(3n+3) {
+    background-color: green;
+}
+
+.btn {
+    text-align: center;
+}
