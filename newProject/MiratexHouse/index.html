@@ -9,7 +9,9 @@
     <!-- <link rel="stylesheet" href="css/Catalog.css"> -->
     
 </head>
+
 <body>
+    
     <header>
         <!--icon of company-->
         <div class="company-icon">
@@ -26,8 +28,8 @@
                 <span>miratex</span><br>
                 <span>house</span>
             </div>
-
-            <div id="catalog">КАТАЛОГ</div>
+            
+            <a href="#catalog-main-box"><div id="catalog">КАТАЛОГ</div></a>
             <a href="Contact.html"> <div id="contact">КОНТАКТЫ</div> </a>
             <a href="MakeMoneyWithUs.html"><div id="money"> ЗАРАБАТЫВАЙ С НАМИ</div></a>
             <!-- <a href="MakeMoneyWithUs.html"> </a> -->
@@ -537,7 +539,10 @@
                         <div class="benefits-flex">
                             <span >
                                 <!-- <img  Width="60px" src="img/Rectangle 9.png" alt="icon"> -->
-                                <button onclick="showBenefits1(this)"><img  id="benefits-buttom1" Width="30px" src="img/Vector 1.png" alt="icon"></button>
+                                <button onclick="showBenefits1(this)" id="benefits-buttom-parent1">
+                                    <img  id="benefits-buttom1" Width="30px" src="img/Vector 1.png" alt="icon">
+                                    <img  id="benefits-buttom1-2" Width="30px" src="img/Vector51.png" alt="icon">
+                                </button>
                             </span>
                             <p>Дополнительное место для дополнительных опций</p>
                         </div>
@@ -564,7 +569,12 @@
                         <div class="benefits-flex">
                             <span >
                                 <!-- <img Width="60px" src="img/Rectangle 9.png" alt="icon"> -->
-                                <button onclick="showBenefits2(this)"><img  id="benefits-buttom2" Width="30px" src="img/Vector 1.png" alt="icon"></button>  
+                                <button onclick="showBenefits2(this)" id="benefits-buttom-parent2" >
+                                    
+                                        <img  id="benefits-buttom2" Width="30px" src="img/Vector 1.png" alt="icon">
+                                        <img  id="benefits-buttom2-2" Width="30px" src="img/Vector51.png" alt="icon">
+                                    
+                                </button>  
                             </span>
                             <p>Доход от аренды для мгновенного возврата вложений</p>
                         </div>
@@ -592,7 +602,7 @@
                 <h2>ЗАРАБАТЫВАЙ С НАМИ</h2>
                 <p>ЛЮБАЯ ИЗ НАШИХ МОДЕЛЕЙ ПОЗВОЛИТ ВАМ ЖИТЬ ИЛИ ЗАПУСТИТЬ БИЗНЕС АБСОЛЮТНО АВТОНОМНО, А ЕСЛИ ВЫ ОСНАСТИТЕ ЕЕ МОДУЛЕМ «МАЙНИНГ», ОНА ЕЩЕ И БУДЕТ ПРИНОСИТЬ ВАМ ДЕНЬГИ.
                 </p>
-                <button class="hiper-button">Узнать больше</button>
+                <a href="#form-popup"><button class="hiper-button">Узнать больше</button></a>
             </div>
 
             <!--katalog-global-space-->
@@ -617,7 +627,7 @@
                         <a href="#model-sleep-box-main-box"><li>Model sleep box</li></a>
                        <a href="#model-WC-main-box"><li>Model wc</li></a>
                     </ul>
-                    <button class="hiper-button" id="save-catalog">скачать каталог</button>
+                    <a href="#form-popup"><button class="hiper-button" id="save-catalog">скачать каталог</button></a>
                 </div>
                 <br>
                 <div id="br"><br></div>
@@ -674,7 +684,7 @@
                                                                     </ul>
                                                                     
                                                                     <div>
-                                                                        <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                        <a href="#form-popup"><button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button></a>
                                                                     </div>
                                                                 </div>
 
@@ -736,7 +746,7 @@
                                                                     </ul>
                                                                     
                                                                     <div>
-                                                                        <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                        <a href="#form-popup"> <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button> </a>
                                                                     </div>
                                                                 </div>
                                                     
@@ -799,7 +809,7 @@
                                                                     </ul>
                                                                     
                                                                     <div>
-                                                                        <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                        <a href="#form-popup"> <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button> </a>
                                                                     </div>
                                                                 </div>
                                                     
@@ -851,7 +861,7 @@
                                                                     </ul>
                                                                     
                                                                     <div>
-                                                                        <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                        <a href="#form-popup"> <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button> </a>
                                                                     </div>
                                                                 </div>
                                                     
@@ -921,7 +931,7 @@
                                                                 </ul>
                                                                 
                                                                 <div>
-                                                                    <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                    <a href="#form-popup"> <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button> </a>
                                                                 </div>
                                                             </div>
                                                               
@@ -976,7 +986,7 @@
                                                                     </ul>
                                                                     
                                                                     <div>
-                                                                        <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                        <a href="#form-popup"> <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button></a>
                                                                     </div>
                                                                 </div>
                                                     
@@ -1044,7 +1054,7 @@
                                                                  </ul>
                                                                 
                                                                 <div>
-                                                                    <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                    <a href="#form-popup"> <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button> </a>
                                                                 </div>
                                                             </div>
                                                               
@@ -1094,7 +1104,7 @@
                                                                 </ul>
                                                                 
                                                                 <div>
-                                                                    <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                    <a href="#form-popup"> <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button> </a>
                                                                 </div>
                                                             </div>
                                                               
@@ -1142,7 +1152,7 @@
                                                                     </ul>
                                                                     
                                                                     <div>
-                                                                        <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                        <a href="#form-popup"> <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button> </a>
                                                                     </div>
                                                                 </div>
                                                     
@@ -1169,7 +1179,7 @@
                                                                     <p id="model-sleep-box-text">Cистема капсул для быстрой организации хостела в любом помещении.</p>  
                                                                    
                                                                     <div>
-                                                                        <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                        <a href="#form-popup"> <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button></a>
                                                                     </div>
                                                                 </div>
                                                     
@@ -1206,7 +1216,7 @@
                                                                         </ul>
                                                                         
                                                                         <div>
-                                                                            <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button>
+                                                                            <a href="#form-popup"> <button class="catalog-button"> АРЕНДОВАТЬ ИЛИ ПРИОБРЕСТИ </button> </a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1340,7 +1350,7 @@
 
     <div id="popup" class="popup">
         <a href="#share-popup" class="popup-close"></a>
-        <div class="popup-body">
+        <div class="popup-body-contact">
             <div class="popup-contetn" id="popup-contact">
                 <ul>
                     <li> <img height="24px" src="img/instagram-icon-logo-vector-download.jpg" alt="instagram-icon"></li>
@@ -1351,6 +1361,29 @@
             </div>
         </div>
     </div>
+
+    <div id="form-popup" class="popup">
+        <a href="#fixed" class="popup-close"></a>
+        <div class="popup-body">
+            <div class="popup-contetn" id="popup-form-content">
+                <a href="#fixed" class="popup-close-btn">X</a>
+                <div id="form">
+                    <form action="succes.html">
+                        <input class="name" type="text" name="name" placeholder="Имя">
+                        <input class="name" type="text" name="last-name" placeholder="Фамилия"> <br>
+                        <input class="contact" type="text" name="email" placeholder="Ваш email*" required="true"><br>
+                        <input class="contact" type="tel" name="tel" placeholder="Ваш телефон*" required="true"><br>
+                        <input class="contact" id="message" type="message" name="message" placeholder="Сообщение"><br>
+                        <p>Отправляя ваш email, вы соглашаетесь получать рассылки и соглашаетесь с <span> политикой приватности.</span></p>
+                        <input id="submit" type="submit" > 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="fixed"></div>
 
     <script src="js/script.js"></script>
     <!-- <script src="js/js.js"></script> -->
