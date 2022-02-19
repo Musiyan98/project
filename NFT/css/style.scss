@@ -1,0 +1,68 @@
+@import "_reset";
+
+
+.body-container {
+   width: 1145px;
+	margin: auto auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	height: 45px;
+}
+
+.header-item {
+display: flex;
+height: 100%;
+text-align: center;
+align-items: center;
+
+	
+}
+
+.header-subitem {
+		display: flex;
+		margin-right: 45px;
+		height: 100%;
+		align-items: center;
+
+
+		.active {
+
+		}
+	}
+
+.main {
+
+
+		&__container {
+		}
+
+		&__content-item {
+		}
+
+		&__content-text {
+		}
+}
+.main-content {
+}
+.svg {
+}
+.play-btn {
+}
+.main-NFT-card {
+}
+.footer {
+
+		&__container {
+		}
+}
+.footer-content-main {
+}
+.footer-content-text {
+}
+.footer-content-btn {
+}
+.footer-content-slides {
+}
