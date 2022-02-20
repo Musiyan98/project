@@ -1,7 +1,11 @@
 @import "_reset";
-
+body {
+	font-family: 'Quantico', sans-serif;
+	color: #2E1720;
+}
 
 .body-container {
+	
    width: 1145px;
 	margin: auto auto;
 }
@@ -26,41 +30,127 @@ align-items: center;
 		margin-right: 45px;
 		height: 100%;
 		align-items: center;
+		font-size: 18px;
+		line-height: 26px;
+		color: #2E1720;
+		opacity: 0.6;
 
-
-		.active {
-
-		}
+	& .active {
+		color: #2E1720;
+		opacity: 0;
 	}
+		
+	}
+.active {
+		color: #2E1720;
+		opacity: 1;
+	}
+.header-singin {
+	font-size: 18px;
+	line-height: 120%;
+	text-transform: capitalize;
+	color: #FFFFFF;
+	background-color: #F10C6D;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+}
 
 .main {
 
+	
 
 		&__container {
+			
+		}
+
+		&__content {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: 80px auto;	
 		}
 
 		&__content-item {
 		}
 
 		&__content-text {
+			width: 45%;
+			& h2 {
+				font-style: italic;
+				font-weight: bold;
+				font-size: 70px;
+				line-height: 130%;
+			}
+
+			& p {
+				font-style: normal;
+				font-weight: normal;
+				font-size: 18px;
+				line-height: 150%;
+				color: #2E1720;
+				opacity: 0.6;
+				margin-top: 25px;
+				margin-bottom: 40px;
+			}
+		}
+		&__content-subitem {
+			display: flex;
+			align-items: center;
+			& span {
+				font-size: 18px;
+				line-height: 26px;
+			}
 		}
 }
-.main-content {
+.get-collection {
+	padding: 15px 30px;
+	background: #F10C6D;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 26px;
+	text-transform: capitalize;
+	color: #FFFFFF;
+
 }
+
 .svg {
+	margin: auto 15px;
 }
+
 .play-btn {
+	
 }
 .main-NFT-card {
 }
+
+
 .footer {
 
 		&__container {
 		}
 }
 .footer-content-main {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 .footer-content-text {
+
+	& h3 {
+		font-size: 39px;
+		line-height: 120%;
+	}
+
+	& p {
+		font-size: 18px;
+		line-height: 150%;
+		opacity: 0.6;
+		margin-top: 15px;
+		margin-bottom: 35px;
+	}
 }
 .footer-content-btn {
 }
